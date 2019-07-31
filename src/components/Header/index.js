@@ -2,7 +2,8 @@ import React from "react";
 import "./style.css";
 
 
-
+//the header we use props here to update teh response sending 
+//game play messages to the user and to update score and top Score
 function Header(props) {
   return (
     <header className="navbar">
@@ -14,4 +15,5 @@ function Header(props) {
   );
 }
 
+//export header
 export default Header;
